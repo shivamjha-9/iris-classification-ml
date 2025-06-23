@@ -40,8 +40,9 @@ This project involves building machine learning models to classify iris flower s
 ---
 
 ## ✅ Results
-- Achieved over **96% accuracy** on the test set
-- Both models performed well, with Decision Tree slightly outperforming on this small dataset
+- Logistic Regression Accuracy: **96.6%**
+- Decision Tree Classifier Accuracy: **97.3%**
+- Confusion Matrix and classification report showed well-balanced performance across all classes.
 
 ---
 
