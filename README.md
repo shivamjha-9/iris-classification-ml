@@ -37,6 +37,14 @@ This project involves building machine learning models to classify iris flower s
 - Pairplot using Seaborn to analyze feature separability
 - Confusion matrices to validate prediction performance
 
+## 🖼️ Sample Output
+
+### 📊 Pairplot
+![Pairplot](images/pairplot.png)
+
+### 📉 Confusion Matrix
+![Confusion Matrix](images/confusion_matrix.png)
+
 ---
 
 ## ✅ Results
