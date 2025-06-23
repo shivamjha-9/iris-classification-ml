@@ -54,3 +54,6 @@ This project involves building machine learning models to classify iris flower s
 ---
 
 ## 📂 File Structure
+## 🔗 Run in Google Colab
+[Click here to open in Google Colab](https://colab.research.google.com/github/shivamjha-9/iris-classification-ml/blob/main/Iris_Classification_Colab.ipynb)
+
