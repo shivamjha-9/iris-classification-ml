@@ -1,17 +1,19 @@
-# 🌸 Iris Flower Classification using Machine Learning
 
-This project involves building machine learning models to classify iris flower species based on petal and sepal dimensions using classic classification algorithms.
+# 🌸 Iris Flower Classification | Logistic Regression & Decision Tree | Scikit-learn
+
+This machine learning project focuses on classifying iris flowers into three species — Setosa, Versicolor, and Virginica — using classical supervised learning models. The goal is to predict the species based on sepal and petal measurements. The project demonstrates model building, evaluation, and visualization using Python and Scikit-learn.
 
 ---
 
 ## 📊 Dataset
 - **Source**: Built-in `sklearn.datasets.load_iris`
-- **Size**: 150 samples, 4 features (numerical), 3 species (Setosa, Versicolor, Virginica)
+- **Size**: 150 samples, 4 features (numerical), 3 species
+- **Features**: Sepal Length, Sepal Width, Petal Length, Petal Width
 
 ---
 
 ## 🔧 Technologies Used
-- Python
+- Python 3
 - Pandas
 - NumPy
 - Scikit-learn
@@ -21,54 +23,93 @@ This project involves building machine learning models to classify iris flower s
 ---
 
 ## 🧠 Models Implemented
-- **Logistic Regression**
-- **Decision Tree Classifier**
+- ✅ Logistic Regression
+- ✅ Decision Tree Classifier
 
 ---
 
-## 🧪 Evaluation Metrics
+## 📈 Evaluation Metrics
 - Accuracy Score
 - Confusion Matrix
 - Classification Report
 
 ---
 
-## 📈 Visualizations
+## 📊 Visualizations
 - Pairplot using Seaborn to analyze feature separability
-- Confusion matrices to validate prediction performance
+- Confusion matrix to evaluate prediction performance
 
-## 🖼️ Sample Output
+### 📸 Sample Outputs
 
-### 📊 Pairplot
+#### 🔍 Pairplot
 ![Pairplot](images/pairplot.png)
 
-### 📉 Confusion Matrix
+#### 📉 Confusion Matrix
 ![Confusion Matrix](images/confusion_matrix.png)
 
 ---
 
 ## ✅ Results
-- Logistic Regression Accuracy: **96.6%**
-- Decision Tree Classifier Accuracy: **97.3%**
-- Confusion Matrix and classification report showed well-balanced performance across all classes.
+| Model               | Accuracy |
+|---------------------|----------|
+| Logistic Regression | 96.6%    |
+| Decision Tree       | 97.3%    |
+
+- Confusion Matrix and Classification Report showed excellent class-wise performance across all 3 flower types.
 
 ---
 
 ## 📚 Key Learnings
-- Supervised classification workflow
+- Supervised classification pipeline (EDA → Preprocessing → Modeling → Evaluation)
 - Handling categorical labels using `LabelEncoder`
-- Visualization for feature understanding
-- Train-Test split and model comparison
+- Visualization for better feature understanding
+- Comparing different model performances
 
 ---
 
 ## 📂 File Structure
 
-## 🔗 Run in Google Colab
-[Click here to open in Google Colab](https://colab.research.google.com/github/shivamjha-9/iris-classification-ml/blob/main/Iris_Classification_Colab.ipynb)
+```
+├── Iris_Classification_Colab.ipynb    # Main notebook with code and output
+├── images/
+│   ├── pairplot.png                   # EDA visualization
+│   └── confusion_matrix.png          # Prediction result visualization
+├── README.md                          # Project documentation
+```
 
-## 📌 Author
+---
+
+## ⚙️ How to Run
+
+1. Clone this repository:
+```bash
+git clone https://github.com/shivamjha-9/iris-classification-ml.git
+```
+
+2. Open the notebook in [Google Colab](https://colab.research.google.com/github/shivamjha-9/iris-classification-ml/blob/main/Iris_Classification_Colab.ipynb)
+
+3. Run all cells to see model training, results, and visualizations.
+
+---
+
+## 🔗 Run in Google Colab
+[👉 Click here to open in Colab](https://colab.research.google.com/github/shivamjha-9/iris-classification-ml/blob/main/Iris_Classification_Colab.ipynb)
+
+---
+
+## 👤 Author
+
 **Shivam Kumar Jha**  
-B.Tech CSE | GEC Samastipur (2027)  
+🎓 B.Tech CSE | GEC Samastipur (Batch of 2027)  
 🔗 [LinkedIn](https://www.linkedin.com/in/shivam-jha-a80825291)  
 🐙 [GitHub](https://github.com/shivamjha-9)
+
+---
+
+## 📌 Status
+✅ Project Completed
+
+---
+
+## 📝 License
+This project is open-source and available under the [MIT License](LICENSE).
